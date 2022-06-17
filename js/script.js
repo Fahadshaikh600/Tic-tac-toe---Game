@@ -1,13 +1,11 @@
 console.log("Welcome to tic tac toe");
 
-let music = new Audio("../music/The-music-pirates-of-carribean.mp4");
 let turnMusic = new Audio("../music/ting.mp3");
 let gameover = new Audio("../music/gameover.mp3");
 let gameoverS = false;
 
 let turn = "X";
 
-music.play();
 // The function to change turn
 
 const changeTurn = () => {
